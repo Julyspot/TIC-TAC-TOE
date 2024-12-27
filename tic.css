@@ -1,0 +1,76 @@
+c* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(73, 75, 102);
+    text-align: center;
+    /* padding: 2rem 0;  */
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem; 
+    color: aqua;
+}
+
+.container {
+    height: 70vmin;
+    width: 60vmin;
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    border: 3px;
+    border-radius: 15px;
+    gap: 1.5vmin;
+    margin: 0 auto; 
+    box-shadow: 0px 0px 10px 2px lightcoral;
+}
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    /* box-shadow: 0 0 1rem lightcoral; */
+    font-size: 8vmin;
+    box-shadow:4px 8px 10px rgb(119, 21, 85);
+    cursor:grab;
+}
+
+button {
+    background-color: pink;
+    border: none;
+    color: white;
+}
+#Reset{
+    background-color: lemonchiffon;
+    color: black;
+    margin-top: 3%;
+    font-size: 5vmin;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+#new{
+    color: rgb(81, 15, 15);
+    background-color:rgb(216, 222, 209);
+    margin-top: 3%;
+    font-size: 5vmin;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+#new:hover{
+    background-color:rgb(135, 98, 98);
+    color:rgb(47, 174, 210);
+}
+#Reset:hover{
+    background-color:rgb(135, 98, 98);
+    color: rgb(47, 174, 210);
+}
+#message{
+    color: rgb(0, 255, 55);
+    font-size: 4vmin;
+}
